@@ -4,5 +4,8 @@ fr-en/
 __pycache__/
 *.py[cod]
 .venv/ venv/
-# trained models (regenerate by training)
-data/model_artifacts/
+# node
+node_modules/
+frontend/dist/
+# NOTE: data/model_artifacts/ is intentionally committed so the Streamlit
+# deploy can load the trained models (each file is well under GitHub's 100 MB).

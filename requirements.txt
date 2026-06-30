@@ -1,0 +1,12 @@
+# Dependencies for the Streamlit deploy (Streamlit Community Cloud reads this).
+# The translator loads whatever models are committed: PyTorch + TensorFlow +
+# the from-scratch NumPy model. No gensim/transformers needed (learned embeddings).
+
+streamlit
+numpy
+
+# CPU-only PyTorch keeps the build small (no multi-GB CUDA wheels)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+
+tensorflow
