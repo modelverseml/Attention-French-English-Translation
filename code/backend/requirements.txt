@@ -1,0 +1,5 @@
+# backend-only web deps. ML deps (torch, tensorflow, numpy, gensim) come from the
+# project venv / main requirements.
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.0

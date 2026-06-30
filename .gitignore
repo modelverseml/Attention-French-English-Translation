@@ -1,0 +1,8 @@
+# raw Europarl corpus (large; download separately)
+fr-en/
+# python / model caches
+__pycache__/
+*.py[cod]
+.venv/ venv/
+# trained models (regenerate by training)
+data/model_artifacts/
